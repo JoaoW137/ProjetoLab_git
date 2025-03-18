@@ -59,7 +59,7 @@ def plotar_dados():
     plt.show()
 
 # Executa o gerador de dados em uma thread separada
-threading.Thread(target=gerar_dados, daemon=True).start()
+'''threading.Thread(target=gerar_dados, daemon=True).start()'''
 
 # Inicia o plot dos dados
-plotar_dados()
+

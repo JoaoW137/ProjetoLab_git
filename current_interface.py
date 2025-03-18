@@ -78,12 +78,10 @@ root.config(menu=menu)
 side_bar = SlidePanel(root, 1, 0.7)
 
 menu.add_command(label='New File', command=lambda: print("U created a new file"))
-menu.add_command(label='Gráficos', command=lambda: plotar_dados(root))
+menu.add_command(label='Gráficos', command=lambda: plotar_dados())
 menu.add_command(label='Edit', command=lambda: print("Botão de Edit"))
 menu.add_command(label='Script', command=lambda: caixa_de_texto())
 menu.add_command(label='Options', command= side_bar.animate)
-
-
 
 
 
